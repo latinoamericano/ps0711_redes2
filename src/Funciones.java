@@ -26,6 +26,6 @@ public class Funciones {
         } catch (Exception ex) {
             texto = ex + "";
         }
-        return texto.substring(0, texto.length());
+        return texto.substring(0, texto.length()-1);
     }
 }
